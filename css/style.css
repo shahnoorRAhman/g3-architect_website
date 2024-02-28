@@ -175,6 +175,49 @@ main {
 
 }
 
+/* our sponsors style */
+.sponsor-section {
+    text-align: center;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+.sponsor-description {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.sponsor-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
     header {
@@ -203,6 +246,13 @@ main {
 
     .facts-card-container .card {
         padding: 20px 20px;
+    }
+
+    .sponsor-img-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        gap: 20px;
     }
 
 }

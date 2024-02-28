@@ -223,7 +223,8 @@ main {
     }
 
     .facts-card-container {
-        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
         align-items: center;
         gap: 10px;
     }
